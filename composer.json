@@ -1,0 +1,28 @@
+{
+  "name": "hashwallet/data-types",
+  "description": "PHP data types",
+  "type": "library",
+  "homepage": "https://github.com/olsai/data-types",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Fyi741",
+      "email": "fyi741@protonmail.com",
+      "homepage": "https://github.com/olsai",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^7.2|^8.0",
+    "ext-bcmath": "*",
+    "ext-mbstring": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Comely\\DataTypes\\": [
+        "src"
+      ]
+    }
+  },
+  "minimum-stability": "dev"
+}
